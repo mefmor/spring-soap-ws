@@ -8,6 +8,7 @@ https://spring.io/guides/gs/producing-web-service/
 но имеет следующие отличия:
 - Генерация классов происходит на основе существующего WSDL, а не как в примере выше - из XSD
 - Сервис создаётся на основе существующей WSDL
+- Использует AXIOM вместо SAAJ
 
 Эндпоинт после запуска: http://localhost:8080/ws/  
 Получить WSDL: http://localhost:8080/ws/countries.wsdl  
